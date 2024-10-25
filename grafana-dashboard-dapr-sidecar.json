@@ -3,7 +3,7 @@
     "list": [
       {
         "builtIn": 1,
-        "datasource": "Dapr",
+        "datasource": "Prometheus",
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
@@ -23,7 +23,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -37,7 +37,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This shows the uptime of dapr runtime sidecar. If the sidecar is running for less than 10 minutes, the color will turn into RED.",
       "fieldConfig": {
         "defaults": {
@@ -108,7 +108,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -125,7 +125,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This shows total amount of Kernel and user CPU usage for Daprd.",
       "fieldConfig": {
         "defaults": {
@@ -222,7 +222,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -317,7 +317,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "The amount of heap memory that belongs specifically to that process in bytes.",
       "fieldConfig": {
         "defaults": {
@@ -414,7 +414,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "The amount of address space that a process is managing. This includes all types of memory, both in RAM and swapped out.",
       "fieldConfig": {
         "defaults": {
@@ -509,7 +509,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -526,7 +526,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows the turn-around latency when user app calls Dapr API. For example, you can understand each statestore and service invocation performance.",
       "fieldConfig": {
         "defaults": {
@@ -635,7 +635,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows completed request rate (rps) when User app calls Dapr.",
       "fieldConfig": {
         "defaults": {
@@ -737,7 +737,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows the inbound request latency from Dapr to App. You can analyze App's API endpoint performance.",
       "fieldConfig": {
         "defaults": {
@@ -845,7 +845,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows request rate (rps) when Dapr runtime calls User app HTTP endpoints.",
       "fieldConfig": {
         "defaults": {
@@ -944,7 +944,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -961,7 +961,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows the turn-around latency when user app calls Dapr API. For example, you can understand each statestore and service invocation performance.",
       "fieldConfig": {
         "defaults": {
@@ -1064,7 +1064,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows completed request rate (rps) when User app calls Dapr.",
       "fieldConfig": {
         "defaults": {
@@ -1161,7 +1161,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows the inbound request latency from Dapr to App. You can analyze App's API endpoint performance.",
       "fieldConfig": {
         "defaults": {
@@ -1264,7 +1264,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "description": "This charts shows request rate (rps) when Dapr runtime calls User app gRPC endpoints.",
       "fieldConfig": {
         "defaults": {
@@ -1358,7 +1358,7 @@
     },
     {
       "collapsed": true,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1368,7 +1368,7 @@
       "id": 52,
       "panels": [
         {
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows the number of configured components. For example, it will shows \"2\" if you configure redis statestore and redis pubsub components. ",
           "fieldConfig": {
             "defaults": {
@@ -1426,7 +1426,7 @@
         },
         {
           "cacheTimeout": null,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows the number of initialized components. This number must be the same as loaded components. Otherwise, Daprd fails to initialize some of components.",
           "fieldConfig": {
             "defaults": {
@@ -1498,7 +1498,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This chart shows the number component initialization failures with the reasons.",
           "fieldConfig": {
             "defaults": {
@@ -1596,7 +1596,7 @@
     },
     {
       "collapsed": true,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -1610,7 +1610,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows when Daprd reports host status to placement service. Non-Actor service reports host status in the beginning. Actor service reports host status to placement periodically. If there is a failure, virtual actors will not be distributed properly.",
           "fieldConfig": {
             "defaults": {
@@ -1708,7 +1708,7 @@
         },
         {
           "cacheTimeout": null,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows the failures when Daprd reports host status to placement.",
           "fieldConfig": {
             "defaults": {
@@ -1768,7 +1768,7 @@
           "bars": true,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows the placement table update status based on the response from placement service. Daprd maintains the actor placement table in its memory. This table is periodically updated.",
           "fieldConfig": {
             "defaults": {
@@ -1866,7 +1866,7 @@
           "bars": true,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This chart shows how many actors are deactivated.",
           "fieldConfig": {
             "defaults": {
@@ -1967,7 +1967,7 @@
           "bars": true,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This shows when actor is rebalanced. This operation can make the activated actors deactivated and move actor to the other hosts.",
           "fieldConfig": {
             "defaults": {
@@ -2065,7 +2065,7 @@
     },
     {
       "collapsed": true,
-      "datasource": "Dapr",
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -2079,7 +2079,7 @@
           "bars": true,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This chart  shows when mTLS is initialized, which means root cert is loaded and workload cert is issued from sentry, when runtime starts.",
           "fieldConfig": {
             "defaults": {
@@ -2179,7 +2179,7 @@
         },
         {
           "cacheTimeout": null,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "fieldConfig": {
             "defaults": {
               "custom": {},
@@ -2238,7 +2238,7 @@
           "bars": true,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "description": "This chart shows when workload certificate is rotated.",
           "fieldConfig": {
             "defaults": {
@@ -2340,7 +2340,7 @@
         },
         {
           "cacheTimeout": null,
-          "datasource": "Dapr",
+          "datasource": "Prometheus",
           "fieldConfig": {
             "defaults": {
               "custom": {},
@@ -2412,7 +2412,7 @@
           "text": "pipeline",
           "value": "pipeline"
         },
-        "datasource": "Dapr",
+        "datasource": "Prometheus",
         "definition": "label_values(dapr_runtime_component_loaded,namespace)",
         "error": null,
         "hide": 0,
@@ -2446,7 +2446,7 @@
             "stateactor"
           ]
         },
-        "datasource": "Dapr",
+        "datasource": "Prometheus",
         "definition": "label_values(dapr_runtime_component_loaded,app_id)",
         "error": null,
         "hide": 0,
